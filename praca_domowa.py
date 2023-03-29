@@ -57,9 +57,4 @@ if __name__ == '__main__':
     print(f'Mean number of steps: {simulation(Kuba, 10)}')
 
     
-
-
-    
-
-    
     
