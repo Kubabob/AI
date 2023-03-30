@@ -57,7 +57,7 @@ def simulation(object: Student, size_of_simulation: int, position_of_home: tuple
         while (object.xpos, object.ypos) != position_of_home:
             object.decide_direction()
             #print(f'Position: {(object.xpos, object.ypos)}')
-            if object.xpos > 50 or object.ypos > 50:
+            if object.xpos > 1.2*position_of_home[0] or object.ypos > 1.2*position_of_home[1]:
                 object.next_party()
                 print(f'Obiekt {object.name} nie dotarł do domu')
                 pass
